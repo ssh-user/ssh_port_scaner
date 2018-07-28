@@ -1,0 +1,17 @@
+{
+  "name": "node-ssh-scaner",
+  "version": "0.0.1",
+  "description": "Scaner for ssh port. Find open ports in range of ips.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ssh",
+    "scaner",
+    "node"
+  ],
+  "author": "SSH",
+  "license": "ISC",
+  "dependencies": {}
+}
