@@ -2,10 +2,14 @@ const scaner = require("./scaner");
 const { getIPsByStar, getIPsByStartEndAddress } = require("./helper");
 const { writeFile } = require('./save');
 
+const START_IP_RANGE = "192.168.0.1";
+const END_IP_RANGE = "192.168.255.255";
+
+
 // start
 (async function () {
     try {
-        let ips = await getIPsByStartEndAddress("192.168.0.1", "192.168.255.255");
+        let ips = await getIPsByStartEndAddress(START_IP_RANGE, END_IP_RANGE);
         let scanned = [];
 
         for (let ip of ips) {
