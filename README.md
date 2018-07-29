@@ -1,4 +1,4 @@
-This project  wrote just for fun. As far is I remember, it should be a part of complex combain to secure testing, but something went wrong. 
+This project was written just for fun. As far is I remember, it should be a part of complex combain to secure testing, but something went wrong. 
 
 So it’s simple module to find open 22 (or other ports) at IP range.
 
